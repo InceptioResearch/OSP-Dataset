@@ -7,6 +7,15 @@ speed planning problem for autonomous trucks under delivery time and fuel consum
 
 To support andaccelerate research on the OSP problem, we have developed a comprehensive dataset using a fleet of over **400 trucks**. The dataset contains rich, diverse information covering more than **22 million kilometers of real-world highway driving data**.
 
+As illustrated in the following figure, he majority of the data in our OSP dataset was collected from the central and eastern regions of
+China. The left portion illustrates the data density heatmap, and the right portion indicates the elevation values of the data points.
+
+<img src="sources/data_geo_distribution.jpg" alt="Data geo distribution" width="400" />
+
+Here is the statistical result of our OSP dataset, including weather, traffic, lane numbers of roads and slope.
+
+<img src="sources/dataset_statistic_2.png" alt="Data feature distribution" width="400" />
+
 ## Dataset
 All dataset files can be found at `dataset` folder. 
 All files are in `.csv` format. 
